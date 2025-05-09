@@ -1,12 +1,12 @@
 // app/page.tsx
 import { Metadata } from "next";
-import ClientHome from "./ClientHome";
+import ClientProduct from "./ClientProduct";
 
 export const metadata: Metadata = {
-  title: "Beranda | DelOptik",
+  title: "Product | DelOptik",
   description: "Landing page resmi DelOptik.",
 };
 
 export default function Home() {
-  return <ClientHome />;
+  return <ClientProduct />;
 }
